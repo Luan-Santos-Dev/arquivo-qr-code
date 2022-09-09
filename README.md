@@ -6,7 +6,7 @@ QR code component
 <p>
 Recriei esse exercício do frontendmentor.io. <br>
 Consegui obter um bom resultado utilizando HTML e CSS.
-
+<hr>
 Para acessar a aplicação:
 </p>
 
