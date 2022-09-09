@@ -24,13 +24,17 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: var(--family);
     font-size: var(--size-font);
     background-color: var(--light-gray);
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#conteiner {
+.conteiner {
     height: 560px;
     min-width: 334.98px;
     max-width: 335px;
@@ -38,24 +42,24 @@ body {
     margin: 5px auto;
     border-radius: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: white;
 }
 
-#conteiner img {
+.conteiner img {
     width: 100%;
     border-radius: 10px;
 }
 
-#text-one {
+.text-one {
     font-weight: var(--second-weight);
     color: var(--dark-blue);
     font-size: 1.7em;
     text-align: center;
-    margin: 20px auto 0px auto;
+    margin: 25px auto;
 }
 
-#text-two {
+.text-two {
     width: 75%;
     font-weight: var(--first-weight);
     text-align: center;
